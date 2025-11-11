@@ -76,7 +76,9 @@ RUN set -ex \
     libpcap-dev \
     pkgconfig \
     zstd-dev \
-    zlib-dev
+    zlib-dev \
+    bpftrace \
+    bpftool
 
 RUN apk add \
     trace-cmd \

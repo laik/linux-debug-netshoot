@@ -5,4 +5,4 @@ docker run --rm -it \
   -v /sys:/sys \
   -v /sys/kernel/debug:/sys/kernel/debug \
   -v /sys/fs/bpf:/sys/fs/bpf \
-  laiks/linux-debug-netshoot:v1
+  docker.io/laiks/linux-debug-netshoot:v1.1
